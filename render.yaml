@@ -3,6 +3,11 @@ services:
     name: laravel-app
     runtime: php
     buildCommand: |
+      # Установка PHP и Composer
+      curl -sS https://getcomposer.org/installer | php
+      mv composer.phar /usr/local/bin/composer
+
+      # Выполнение команд для Laravel
       composer install
       npm install
       npm run build
