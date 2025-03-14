@@ -1,0 +1,339 @@
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(19, 60, 223);
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+}
+.card-header a {
+    text-decoration: none;
+}
+textarea {
+    padding: 0.8rem;
+    font-weight: 700;
+}
+
+#author-name {
+    font-size: 1.2rem;
+}
+.card-header span {
+    font-size: 1.2rem;
+    color: rgb(149, 0, 255);
+}
+.postTime {
+    font-size: 0.9rem;
+    color: rgb(149, 0, 255);
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+.list h4 {
+    font-weight: 700;
+}
+.list a {
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: none;
+}
+#authorName {
+    color: rgb(149, 0, 255);
+    font-weight: 700;
+}
+#name::placeholder {
+    color: #c4b6b6;
+}
+#surname::placeholder {
+    color: #c4b6b6;
+}
+
+#role {
+    font-weight: 700;
+}
+.btn {
+    border: none;
+    font-weight: 700;
+    transform: rotate(5deg);
+}
+.buttons a {
+    border: none;
+    font-style: normal;
+    font-size: 15px;
+    height: 38px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.postbuttons a {
+    border: none;
+    font-style: normal;
+    font-size: 15px;
+    height: 38px;
+    margin-top: 1rem;
+}
+.postbuttons {
+    display: block;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+}
+.postbuttons button {
+    margin-top: 1rem;
+}
+
+p {
+    color: rgb(23, 228, 160);
+    font-size: 20px;
+    font-style: italic;
+}
+input {
+    border-radius: 5px;
+}
+small {
+    color: rgb(120, 18, 97);
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+}
+label {
+    color: blue;
+    font-size: 20px;
+    font-weight: 700;
+}
+.alert {
+    margin-right: 200px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgb(0, 255, 30);
+}
+.alert-danger {
+    background-color: rgb(255, 51, 0);
+    color: white;
+}
+.alert-primary {
+    background-color: rgb(110, 230, 248);
+}
+.formErr {
+    height: auto;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 100%;
+}
+.formErr li {
+    list-style-type: none;
+}
+
+.sortbtn {
+    display: flex;
+    gap: 50px;
+}
+.butt-sort {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.btn-outline-danger {
+    font-size: 15px;
+    font-weight: 700;
+}
+.btn-outline-warning {
+    color: rgba(218, 187, 8, 0.995);
+    height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn-outline-info {
+    height: 40px;
+    font-size: 20px;
+}
+.btn-outline-success:hover {
+    background-color: rgb(149, 0, 255);
+    color: white;
+}
+span {
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(35, 36, 36);
+}
+span b {
+    color: red;
+    font-style: normal;
+}
+fieldset {
+    padding: 10px;
+    border: 1px solid rgb(206, 201, 206);
+    border-radius: 10px;
+    margin-top: 20px;
+    legend {
+        display: inline-block;
+        text-align: center;
+        color: rgb(188, 191, 193);
+        font-style: italic;
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+.butt-filter {
+    display: flex;
+    justify-content: center;
+    gap: 350px;
+}
+i {
+    font-size: 12px;
+    color: rgb(166, 167, 173);
+    font-weight: 500;
+}
+
+.pg {
+    padding-left: 30rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.show {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(149, 0, 255);
+    padding-top: 1.5rem;
+}
+.list1 {
+    display: flex;
+    justify-content: space-around;
+}
+.show1 {
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(124, 121, 124);
+}
+.list2 {
+    display: flex;
+    color: rgb(214, 181, 13);
+    font-size: 22px;
+    padding-top: 20px;
+    font-style: italic;
+}
+.list2 img {
+    width: 80%;
+    border-radius: 0.5rem;
+}
+.foto {
+    padding: 1rem;
+    width: 60%;
+}
+.authorData {
+    display: block;
+    padding: 2rem;
+    width: 40%;
+}
+.authorDataList {
+    color: rgb(120, 18, 97);
+    font-weight: 700;
+    padding-top: 1rem;
+    margin: 0;
+}
+.list3 {
+    border: 1px solid black;
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+}
+.show2 {
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(28, 15, 15);
+}
+#sch {
+    display: flex;
+}
+.comment {
+    padding-top: 3rem;
+}
+.comment p {
+    color: rgb(149, 0, 255);
+    font-weight: 700;
+}
+
+.add-comment {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+#nocomment {
+    padding-top: 3rem;
+}
+
+#comm {
+    width: 74.1rem;
+}
+
+.commentBtn {
+    display: none;
+    gap: 1.5rem;
+}
+.comment:hover .commentBtn {
+    display: flex;
+    gap: 1.5rem;
+}
+.sortButtons {
+    display: flex;
+    gap: 1rem;
+}
+.sortButtons button {
+    color: rgb(149, 0, 255);
+}
+.select {
+    display: flex;
+    gap: 1rem;
+}
+.forms {
+    display: flex;
+    gap: 3rem;
+}
+.list-group {
+    padding-top: 0rem;
+}
+#like-button {
+    margin-left: 1rem;
+    background: rgb(26, 207, 29);
+}
+#likes-count {
+    color: rgb(26, 207, 29);
+}
+.like {
+    color: rgb(137, 141, 141);
+}
+#dislikes-count {
+    color: red;
+}
+#dislike-button {
+    margin-left: 1rem;
+}
+.dislike {
+    margin-left: 3rem;
+    color: rgb(137, 141, 141);
+}
+.icon {
+    color: white;
+    font-size: 1rem;
+}
+.neutral {
+    margin-left: 3rem;
+    color: rgb(137, 141, 141);
+}
+#neutral-button {
+    margin-left: 1rem;
+}
+#neutrals-count {
+    color: rgb(0, 55, 255);
+}
