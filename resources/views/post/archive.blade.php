@@ -84,6 +84,7 @@
                                                     @csrf
                                                     <button type="submit"class="btn btn-outline-danger">DELETE</button>
                                                 </form>
+                                                <button type="submit"class="btn btn-outline-success">Your Post</button>
                                             @endif
 
                                         </div>
