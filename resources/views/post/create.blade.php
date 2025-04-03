@@ -85,5 +85,5 @@
 @endsection
 
 @section('title')
-    POST CREATED
+    POST CREATE
 @endsection
